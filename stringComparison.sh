@@ -2,7 +2,7 @@
 
 read nameA
 read nameB
-#you can use this waya =, ==, !=
+#you can use this way =, ==, !=
 if [ $nameA = $nameB ]
 then
 	echo "Same name " $nameA
@@ -10,6 +10,7 @@ else
 	echo "Diffrient name. " $nameA " and " $nameB
 fi
 
+#another way
 if [[ $nameA < $nameB ]]
 then
 	echo $nameB " is grater then " $nameA
