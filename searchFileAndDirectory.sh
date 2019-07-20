@@ -8,6 +8,13 @@ else
     echo $file_name 'file is not found!'
 fi
 
+if [ -s $file_name ] # -e flag for check file empty or not
+then
+    echo $file_name 'file is not empty!'
+else
+    echo $file_name 'file is empty!'
+fi
+
 echo -e 'Enter the directory name : \c'
 read directory_name
 if [ -d $directory_name ] # -d flag for check directory exist or not
