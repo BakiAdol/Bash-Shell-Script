@@ -1,5 +1,7 @@
 #! /bin/bash
+
 read age
+
 if [ $age -lt 18 ]
 then
 	echo "You kids!"
