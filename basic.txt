@@ -1,0 +1,5 @@
+Comand for check supported shells on your system : cat /etc/shels
+Comand for know where bash is located : which bash
+Comand for create new file : touch fileName.sh
+Comand for get execute permission for a file : chmod +x filename.sh
+Comand for execute this file : ./finename.sh
