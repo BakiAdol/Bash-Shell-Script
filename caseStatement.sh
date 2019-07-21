@@ -14,6 +14,21 @@ case $num in
 	echo "Grater than Three";;
 esac
 
+echo -e 'Enter character : \c'
+read char
+case $char in
+    [a-z] )
+	echo "Between a to z";;
+    [A-Z] )
+	echo "Between A to z";;
+    [0-9] )
+	echo "Between 0 to 9";;
+    ? )
+	echo "Special character";;
+    * )
+	echo "Unkwon";;
+esac
+
 : '
     Case structure.....
 
@@ -28,6 +43,7 @@ esac
 	* )
 	   statement;;
 
-
  * ) for if not match any value
+
+if face problem in Capital later run a comand LANG=C
 '
